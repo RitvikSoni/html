@@ -1,0 +1,61 @@
+<!-- position in css -->
+<!-- types of position -->
+<!-- 1.static
+     2.relative
+     3.absolute
+     4.fixed
+    5.sticky   -->
+
+
+
+
+
+
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 1000vh;
+        }
+        .box{
+            height: 300px;
+        width: 23%;
+        background-color: rgb(118, 9, 9);
+        margin: 10px;
+        display: inline-block;
+        font-size: 100px;
+        }
+        #box-1{
+            width: 100%;
+            position: fixed;
+            top: 900px;
+            left: 10px;
+        }
+        #box-2{
+            background-color: aqua;
+            top: 35px;
+            position: sticky;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box" id="box-1"> </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente itaque ex nemo nam error sed iste molestias fugiat
+        dignissimos ea aspernatur excepturi eius temporibus illo, quo ab. Praesentium sed autem aut nisi ut obcaecati
+        suscipit dolore esse, repellat, at consequuntur nostrum alias impedit reprehenderit. Ex, blanditiis incidunt ipsam
+        fugiat quae odio sint aperiam molestiae accusantium possimus nesciunt aspernatur, laborum voluptates, numquam nihil
+        explicabo ad? Quibusdam, ex molestias. Commodi tempore eos temporibus fugiat libero eius, nemo velit voluptas
+        repudiandae facere animi iure nostrum laboriosam unde suscipit laborum maiores voluptate iusto eum corrupti? Unde
+        esse molestiae pariatur earum quod fugiat iste ipsum?</p>
+    <div class="box" id="box-2">2</div>
+    <div class="box">3</div>
+    <div class="box">3</div>
+    
+</body>
+</html>
+
