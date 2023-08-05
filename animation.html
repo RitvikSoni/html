@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .box{
+            background-color: aqua;
+            height: 200px;
+            width: 200px;
+            animation-name: ritvik;
+            animation-duration: 5s;
+            animation-iteration-count: 5;
+            
+            position: relative;
+
+         
+          
+        }
+        @keyframes ritvik{
+
+            /* from{background-color: yellow;
+                height: 200px;
+                width: 200px;
+                border: 5px solid darkcyan ;
+                margin: 100px;
+
+            }
+            to{
+                height: 500px;
+                width: 500px;
+                background-color: blueviolet;
+                border: 2px solid green;
+                margin: 300px;
+
+            } */
+
+
+
+            0%{
+               top: 0px;
+                
+            }
+            10%{
+                left: 200px;
+                top:200px
+            }
+            25%{
+                left: 0px;
+                right: 200px;
+            }
+            50%{
+                left: 150px;
+                bottom: 300px;
+            }
+            100%{
+                bottom: 350px;
+                right: 350px;
+                background-color: bisque;
+            }
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="box">ritvik</div>
+    
+    
+</body>
+</html>
